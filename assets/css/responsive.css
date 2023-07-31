@@ -1,0 +1,277 @@
+@media only screen and (max-width:1024px) {
+    .hero h1 {
+        font-size: 40px;
+        line-height: 1.2;
+        letter-spacing: 0.16px;
+        margin-bottom: 10px;
+    }
+
+    .hero a {
+        font-size: 16px;
+    }
+
+    .header_sec {
+        font-size: 36px;
+        line-height: 1.2;
+        letter-spacing: -0.4px;
+    }
+
+
+    .sort_trade h2 {
+        font-size: 26px;
+        line-height: 130%;
+        letter-spacing: -0.4px;
+    }
+
+    .timer h3 {
+        font-size: 40px;
+    }
+
+    .sort_trade::before {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .pro_trades::before {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .road_map::before {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .feature_box::before {
+        left: 5%;
+    }
+
+    .circle::before {
+        left: 4.1%;
+    }
+
+    .sort_trade_inner::before {
+        left: 5%;
+    }
+
+    .map_header::after {
+        width: 66.8%;
+        left: 15%
+    }
+
+    .footer_form input {
+        width: 150px;
+    }
+
+    /* Footer Start */
+    .footer_form {
+
+        width: 230px;
+    }
+
+    .foo_p {
+        padding-left: 50px;
+    }
+
+    /* Footer End */
+}
+
+@media only screen and (max-width:768px) {
+    .hero {
+        padding-top: 40px;
+        background-position: right top;
+    }
+
+    .key_save {
+        flex-direction: column;
+    }
+
+    .presale_live {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .table_offer {
+        overflow-x: scroll;
+    }
+
+    .tax_token p {
+        font-size: 8px;
+    }
+
+
+    .tax_token h3 {
+        font-size: 12px;
+    }
+
+
+    .currency .nav {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .live_reverse{
+        flex-direction: column-reverse;
+    }
+
+    .wallet {
+        font-size: 10px;
+        padding: 6px 8px;
+    }
+
+    .tsr_inner h3 {
+        font-size: 16px;
+    }
+
+    .road_map::before {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .platform_bg::before {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .presale_live::before {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .unit h5 {
+        font-size: 16px;
+    }
+
+    .platform::before {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .sort_trade_inner::before {
+        display: none;
+    }
+
+    .circle::before {
+        display: none;
+    }
+
+    .feature_box::before {
+        display: none;
+    }
+
+    /* Road Map Start */
+
+    .stage_box {
+        flex-direction: column;
+        gap: 10px;
+        position: relative;
+        z-index: 99999;
+    }
+
+    .map_header::after {
+        display: none;
+    }
+
+    .stage {
+        position: relative;
+    }
+
+    .stage::before {
+        position: absolute;
+        content: "";
+        top: 21.2%;
+        left: 20%;
+        height: 64.3%;
+        border-left: 1px solid #0DE85C;
+    }
+
+    .stage_inner::before {
+        border-radius: 50%;
+        top: 52.3%;
+        left: -10%;
+        width: 10px;
+        height: 10px;
+    }
+
+    .stage_inner::after {
+        top: 50%;
+        left: -13%;
+        width: 3%;
+        border-bottom: 1px solid #0DE85C;
+        border-left: none;
+    }
+
+    /* Road Map End */
+
+    /* Footer Start */
+    .foo_mr {
+        border-right: 0 !important;
+    }
+
+    .foo_p {
+        padding-left: 0;
+    }
+
+    /* Footer End */
+}
+
+@media only screen and (max-width:425px) {
+
+    .pro_trades {
+        margin-top: 50px;
+    }
+
+    .pro_trade_bottom {
+        padding-top: 50px;
+    }
+
+    .sort_trade {
+        background-image: none;
+    }
+
+    .back_img {
+        background-image: none;
+    }
+
+    .sort_trade_upper {
+        padding-bottom: 50px;
+    }
+
+    .platform {
+        padding-bottom: 50px;
+    }
+
+    .platform_bg::after {
+        display: none;
+    }
+
+    .platform_bg::before {
+        display: none;
+    }
+
+    .map_header {
+        padding-bottom: 0;
+    }
+
+    .road_map {
+        padding-bottom: 50px;
+    }
+
+    .stage::before {
+        display: none;
+    }
+    .stage_inner::before {
+        display: none;
+    }
+
+    .foo_inner{
+        text-align: center;
+    }
+
+    .footer_bottom{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+}
